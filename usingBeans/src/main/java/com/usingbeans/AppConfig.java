@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-    public BookModel getBookBean(){
+    public BookModel getBookBean() {
         return new BookModel();
     }
 
     @Bean
-    public AuthorModel getAuthorBean(){
+    public AuthorModel getAuthorBean() {
         return new AuthorModel();
     }
 }

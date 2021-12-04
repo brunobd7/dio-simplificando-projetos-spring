@@ -34,8 +34,8 @@ public class BookModel {
         this.id = id;
     }
 
-    public void showInformations(){
-        System.out.println(this.description +" - "+this.id);
+    public void showInformations() {
+        System.out.println(this.description + " - " + this.id);
         this.authorModel.showAuthor();
     }
 }

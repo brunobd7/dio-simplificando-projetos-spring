@@ -12,7 +12,7 @@ public class AuthorModel implements AuthorBook {
         this.name = name;
     }
 
-    public void showAuthorsName(){
+    public void showAuthorsName() {
         System.out.println(this.name);
     }
 
