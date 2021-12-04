@@ -9,4 +9,9 @@ public class SendEmails {
     public void returnMessage(String message){
         System.out.println(message);
     }
+
+
+    public static SendEmails getEmailData(){
+        return new SendEmails("smtp","contact.@gmail.com", "xxxxxxx");
+    }
 }

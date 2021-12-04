@@ -11,10 +11,10 @@ public class PurchaseOrder {
     }
 
 
-    private SendEmails sendEmails;
+    private SendEmails sendEmails = SendEmails.getEmailData();
 
     public void saveRequestPurchaseOrder(){
-        this.sendEmails = new SendEmails("smtp","contact.@gmail.com", "xxxxxxx");
+//        this.sendEmails = new SendEmails("smtp","contact.@gmail.com", "xxxxxxx");
         this.sendEmails.returnMessage("Purchase order finished sucessfull");
     }
 }
